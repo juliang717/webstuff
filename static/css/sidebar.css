@@ -1,0 +1,52 @@
+/*-----------Side Bar-----------*/
+
+#sidebar {
+    background-color: #292E33;
+    width: 9cm;
+    height: 100%;
+    float: left;
+}
+
+/*-----------Side Bar -> Menu-----------*/
+
+#sidebarSelectCont {
+    width: 9cm;
+    height:1.77cm;
+    float: left;
+    background-color: #292E33;
+}
+#sidebarSelectCont:hover {
+    background-color: #393C43;
+}
+
+#sidebarTitle {
+    font-size: 90%;
+    position: relative;
+    top: 0.3cm;
+    float: left;
+}
+
+#sidebarMenuImage {
+    float: left;
+    width: 0.45cm;
+    position:relative;
+    top: 0.7cm;
+    left: 0.6cm;
+    margin-right: 1.28cm;
+}
+
+#sidebarLockCont {
+    height: 0.65cm;
+    width: 0.58cm;
+    float:right;
+    position:relative;
+    top: 0.5cm;
+    margin-right:0.25cm;
+    border-radius: 0.1cm;
+    padding-left: 0.17cm;
+    padding-top: 0.1cm;
+}
+
+#sidebarLockImage {
+    width: 0.4cm;
+}

@@ -1,0 +1,41 @@
+/*-----------Feed Bar-----------*/
+
+#feedCont { 
+    float: right;
+    background-color: #292E33;
+    width: 4cm;
+    height: 100%;
+}
+
+#feedPlaceholder {
+    width: 100%;
+}
+
+#feedHeader {
+    background-color: #292E33;
+    width: 4cm;
+    height: 1.77cm;
+    border-bottom: 1px #202225 solid;
+    box-shadow: 0.1cm 0cm 0.1cm 0.1cm rgba(0, 0, 0, 0.15);
+    float: right;
+}
+#feedHeader:hover {
+    background-color: #393C43;
+}
+
+#feedHeaderTitle {
+    font-size: 90%;
+    position: relative;
+    float: left;
+    left: -0.6cm;
+    top: 0.3cm;
+}
+
+#feedClockImage {
+    height: 0.6cm;
+    width: 0.6cm;
+    float: left;
+    position:relative;
+    top: 0.25cm;
+    left: -0.25cm;
+}

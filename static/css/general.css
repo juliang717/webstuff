@@ -1,0 +1,66 @@
+/*-----------General Classes-----------*/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+
+.unselectable {
+    user-select: none;
+}
+
+.round {
+    border-radius: 0.22cm;
+}
+
+.textBold {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #F5F5F6;
+}
+
+.text {
+    font-family: sans-serif;
+    font-weight: 550;
+    color: #F5F5F6;
+}
+
+.strikeout {
+    text-decoration: line-through;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.disabled {
+    display: none;
+}
+
+.highlighted {
+    background-color: #393C43;
+}
+
+.pressedIcon {
+    background-color: #393C43;
+    box-shadow: 0cm 0cm 0.1cm 0.07cm rgba(0, 0, 0, 0.4) inset;
+}
+
+.pressed{ 
+    box-shadow: 0cm 0cm 0.12cm 0.12cm rgba(0, 0, 0, 0.15) inset;
+}
+
+.greyedOut {
+    color: #5F636B;
+}
+
+.regularBtnColor {
+    background-color: #36393F;
+}

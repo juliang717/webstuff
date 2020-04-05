@@ -1,0 +1,69 @@
+/*-----------Stats -> Body-----------*/
+
+#calendarCont {
+    width: 17.91cm;
+}
+
+#calendarIcon {
+    width: 0.8cm;
+    float: left;
+    margin: 0.2cm 0.4cm 0.2cm 0.3cm;
+}
+
+.calendarField {
+    width: 2.4cm;
+    height: 2cm;   
+    float: left;
+    background-color: #393C43;
+    border-left: 0.5px #202225 solid;
+    border-top: 0.5px #202225 solid;
+}
+
+.calendarTop {
+    margin-top: 0.5cm;
+}
+
+.calendarRight {
+    margin-right: 0.5cm;
+    border-right: 0.5px #202225 solid;
+}
+
+.calendarBot {
+    margin-bottom: 0.5cm;
+    border-bottom: 0.5px #202225 solid;
+}
+
+.calendarLeft {
+    clear: both;
+    margin-left: 0.5cm;
+}
+
+.calendarDay {
+    position: relative;
+    top: -0.2cm;
+    left: 0.1cm;
+    font-size: 70%;
+}
+
+.weekdayCont {
+    width: 2.4cm;
+    height: 0.6cm;
+    border-right: 0.5px #202225 solid;
+    border-top: 0.5px #202225 solid;
+    margin: 0.5cm 0 0 0;
+    float: left;
+    background-color: #393C43;
+}
+
+.weekdayLabel {
+    position: relative;
+    top: -0.3cm;
+    text-align: center;
+}
+
+.calendarCheckmark {
+    width: 1.2cm;
+    position: relative;
+    top: -0.5cm;
+    left: 0.65cm;
+}

@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/general.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/iconbar.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/body.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/sidebar.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/feed.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/checklist.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stats.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <div id="iconBar">
+        <!--<div id="dashboardIconCont" class="iconCont round">
+            <image src="{% static 'images\dashboardIcon.png' %}" id="dashboardIcon" class="unselectable"></image>
+            <p class="iconLabel unselectable text">Dashboard</p>
+        </div> -->
+        <div id="sidebarSelectCont">
+            <image src="{% static 'images\menuBars.png' %}" id="sidebarMenuImage" class="unselectable"></image>
+            <p id="sidebarTitle" class="text unselectable">Checklist</p>
+            <div id="sidebarLockCont">
+                <image src="{% static 'images\lockOpen.png' %}" id="sidebarLockImage" class="unselectable"></image>
+            </div>
+        </div>
+        <div id="checklistIconCont" class="iconCont shortIconCont">
+            <image src="{% static 'images\checklistIcon1.png' %}" class="iconImage unselectable"></image>
+            <p class="iconLabel unselectable textBold">Checklist</p>
+        </div>
+        <div id="goalsIconCont" class="iconCont shortIconCont">
+            <image src="{% static 'images\goalsIcon1.png' %}" class="iconImage unselectable"></image>
+            <p class="iconLabel unselectable textBold">Goals</p>
+        </div>
+        <div id="nutritionIconCont" class="iconCont shortIconCont">
+            <image src="{% static 'images\nutritionIcon1.png' %}" class="iconImage unselectable"></image>
+            <p class="iconLabel unselectable textBold">Nutrition</p>
+        </div>
+        <div id="fitnessIconCont" class="iconCont shortIconCont">
+            <image src="{% static 'images\fitnessIcon1.png' %}" class="iconImage unselectable"></image>
+            <p class="iconLabel unselectable textBold">Fitness</p>
+        </div>
+        <div id="statsIconCont" class="iconCont shortIconCont">
+            <image src="{% static 'images\statsIcon1.png' %}" class="iconImage unselectable"></image>
+            <p class="iconLabel unselectable textBold">Stats</p>
+        </div>
+        <div id="feedHeader">
+            <image src="{% static 'images\clockIcon.png' %}" id="feedClockImage" class="iconImage unselectable">
+            </image>
+            <p id="feedHeaderTitle" class="text unselectable">Activity</p>
+        </div>
+        <div id="settingsIconCont" id="settingsIcon" class="iconCont shortIconCont">
+            <image src="{% static 'images\settingsIcon.png' %}" class="iconImage unselectable"></image>
+            <p class="iconLabel unselectable textBold">Settings</p>
+        </div>
+    </div>
+    <div id="bodyCont">
+        <div id="sidebar">
+            <div id="sbHeaderChecklist">
+            </div>
+            <div id="sbBodyChecklist">
+            </div>
+        </div>
+        <div id="feedCont">
+            <div id="feedPlaceholder">
+            </div>
+        </div>
+    </div>
+    
+    <script src="{% static 'js\setup.js' %}"></script>
+    <script src="{% static 'js\iconbar.js' %}"></script>
+    <script src="{% static 'js\sidebar.js' %}"></script>
+    <script src="{% static 'js\checklist.js' %}"></script>
+    <script src="{% static 'js\stats.js' %}"></script>
+</body>
+
+</html>

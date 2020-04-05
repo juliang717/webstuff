@@ -1,0 +1,71 @@
+/*-----------Background-----------*/
+
+body {
+    background-color: #202225;
+    padding: 0;
+    margin: 0;
+}
+
+/*-----------Body-----------*/
+
+.overviewCont {
+    background-color: #2F3136;
+    height: auto;
+    float: left;
+    margin: 0.4cm;
+    box-shadow: 0cm 0cm 0.12cm 0.10cm rgba(0, 0, 0, 0.3);
+}
+
+.overviewContHeader {
+    width: 100%;
+    height: 1.1cm;
+    margin: 0;
+    border-radius: 0.22cm 0.22cm 0 0;
+    box-shadow: 0cm 0.2cm 0.2cm 0cm rgba(0, 0, 0, 0.2);
+}
+
+.overviewContHeaderTitle {
+    font-size: 110%;
+    margin: 0;
+    position: relative;
+    top: 0.3cm;
+    float: left;
+}
+
+.panelFooter {
+    height: 1.5cm;
+    width: 100%;
+    border-top: 1px #202225 solid;
+    float: left;
+}
+
+#bodyCont {
+    background-color: #1E2125;
+    width: fill-available;
+    height: 100%;
+    overflow: hidden;
+    border-top: 1px #3A3E41 solid;
+    box-shadow: 0cm 0.1cm 0.15cm 0.1cm rgba(0, 0, 0, 0.2) inset;
+}
+
+#bodyHeader {
+    height: 0.95cm;
+    width: fill-available;
+    border-radius: 0px 0.22cm 0px 0px;
+    border-bottom: 1px #202225 solid;
+    padding-top: 0.15cm;
+    padding-left: 9.23cm;
+    margin-bottom: 0.1cm;
+    box-shadow: 0cm 0cm 0.1cm 0.1cm rgba(0, 0, 0, 0.15);
+}
+#bodyHeader:hover {
+    background-color: #393C43;
+}
+
+#bodyHeaderTitle {
+    font-size: 90%;
+    position: relative;
+    width: 3cm;
+    top: -0.2cm;
+    left: 1cm;
+}
